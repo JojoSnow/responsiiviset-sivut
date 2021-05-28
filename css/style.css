@@ -1,0 +1,197 @@
+/*KAIKKI SIVUT*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    max-width: 1200px;
+    background-color: #1c1c29;
+    color: #e4e3e7;
+    margin: auto;
+    word-wrap: break-word;
+    padding: 25px 30px 30px 30px;
+}
+
+hr {
+    border: 0.4px solid #ffffff;
+    opacity: 0.15;
+    margin-top: 5px;
+    margin-bottom: 22px;
+}
+
+p {
+    line-height: 26px;
+}
+
+/*NAVIGOINTI*/
+nav {
+    min-width: 400px;
+    overflow-x: hidden;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: #e4e3e7;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    display: inline;
+}
+
+nav a:hover {
+    color: #b9b8b8;
+}
+
+nav ol {
+    background: linear-gradient(90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.2) 15%,
+    rgba(255, 255, 255, 0.2) 60%,
+    rgba(255, 255, 255, 0) 100%);
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    padding: 2px 5px;
+}
+
+/*INDEX*/
+.etusivu h2 {
+    margin: auto;
+    padding-top: 10px;
+}
+
+.etusivu p {
+    text-align: left;
+}
+
+.etusivu span {
+    font-weight: bold;
+}
+
+/*TUTKINNON-RAKENNE*/
+.tutkinnon-rakenne h1 {
+    margin: auto;
+    padding-top: 10px;
+}
+
+.tutkinnon-rakenne li {
+    padding-bottom: 8px;
+}
+
+/*TUTKINNONOSAT*/
+.tutkinnonosat h1 {
+    margin: auto;
+    padding-bottom: 8px;
+    padding-top: 10px;
+}
+
+.tutkinnonosat h2 {
+    margin: auto;
+    padding-top: 10px;
+}
+
+.tutkinnonosat h3 {
+    padding-top: 14px;
+}
+
+.tutkinnonosat ul {
+    padding-top: 5px;
+    list-style-type: none;
+}
+
+.tutkinnonosat ul li:nth-child(1) {
+    list-style-type: disc;
+}
+
+.tutkinnonosat ul li:nth-child(3) {
+    list-style-type: disc;
+}
+
+.tutkinnonosat ul li:nth-child(5) {
+    list-style-type: disc;
+}
+
+.tutkinnonosat ul li:nth-child(7) {
+    list-style-type: disc;
+}
+
+.tutkinnonosat ul li ul li {
+    list-style-type: disc;
+}
+
+.tutkinnonosat li {
+    padding-bottom: 8px;
+}
+
+
+/*KRITEERIT*/
+.kriteerit h1 {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.kriteerit th, td {
+    margin: 0;
+    padding: 8px 7px;
+    border: 0.2px solid #f5f0fd77;
+}
+
+.kriteerit table {
+    border-color: #f5f0fd77;
+    border-collapse: collapse;
+}
+
+.kriteerit table tr:nth-child(odd) td {
+    background-color: #282835;
+}
+
+/*ARVIOINTI*/
+.arviointi h1 {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+/*RESPONSIIVISUUS*/
+@media only screen and (max-width: 768px) {
+
+    body {
+        margin: auto;
+        word-wrap: break-word;
+        padding: 25px 30px 30px 30px;
+        font-size: 14px;
+    }
+
+    /*NAVIGOINTI*/
+    nav {
+        min-width: 200px;
+        font-size: 15px;
+        word-wrap: break-word;
+        margin-bottom: 10px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+    }
+
+    nav ol {
+        width: 100%;
+    }
+    
+    nav li {
+        display: block;
+    }
+
+    /*KRITEERIT*/
+
+    .kriteerit table {
+        min-width: 200px;
+    }
+
+
+} 
